@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Assignment</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-JHRvDQw+MNSo0V48B/J3m7uEFSj0jkaHq9Iw9J9zUeHhsb7r9NpBxPnJz+gJNZc4H5avthXrVJu1M4uNoPvGfw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">Teacher Dashboard</a>
+        <div class="navbar-links">
+            <a class="nav-link" href="teacherindex.php">Home</a>
+            <a class="nav-link active" href="post_assignment.html">Post Assignment</a>
+            <a class="nav-link" href="../logout.php">Logout</a>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <h2>Edit Assignment</h2>
+        <form method="POST" action="edit_assignment.php">
+            <div class="form-group">
+                <label for="assignment_title">Assignment Title:</label>
+                <input type="text" class="form-control" id="assignment_title" name="assignment_title" required>
+            </div>
+            <div class="form-group">
+                <label for="due_date">Due Date:</label>
+                <input type="date" class="form-control" id="due_date" name="due_date" required>
+            </div>
+            <div class="form-group">
+                <label for="semester">Semester:</label>
+                <select class="form-control" id="semester" name="semester" required>
+                    <option value="semester1">Semester 1</option>
+                    <option value="semester2">Semester 2</option>
+                    <option value="semester3">Semester 3</option>
+                    <option value="semester4">Semester 4</option>
+                    <option value="semester5">Semester 5</option>
+                    <option value="semester6">Semester 6</option>
+                    <option value="semester7">Semester 7</option>
+                    <option value="semester8">Semester 8</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea class="form-control" id="description" name="description" rows="4" required></textarea>
+            </div>
+            <input type="hidden" id="assignment_id" name="assignment_id">
+            <button type="submit" class="btn btn-primary">Update Assignment</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-u8Hzfwze6ab3vIVj8Ft6qqXcZ9XzIWJw6u9+fq7l9I8w7S3pA1gZ0nPLZCf4nsM8"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh/jFcUs7XAWL7PR9OJ3R6P/JF9TA5z4G5DlH"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
