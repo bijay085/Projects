@@ -1,0 +1,55 @@
+{
+    "servers": {
+        "1192699240225443891": {
+            "server_id": 1192699240225443891,
+            "server_name": "Phoenix's server",
+            "invite_link": "https://discord.gg/cTwuXw56y4",
+            "allowed_category_id": 1268874209325744129,
+            "category_link": "https://discord.com/channels/1192699240225443891/1268874209325744129",
+            "bot_log": [
+                1268874213482172427,
+                1259612785889771530
+            ],
+            "allowed_uids": [],
+            "blacklist_uids": [],
+            "directories": {
+                "netflix": "D:/discord/netflix",
+                "prime": "D:\\discord\\prime video",
+                "crunchyroll": "D:\\discord\\crunchyroll",
+                "spotify": "D:\\discord\\spotify",
+                "hulu": "D:\\discord\\hulu"
+            },
+            "admin_role_ids": [
+                1192694890530869369
+            ],
+            "whitelist": {},
+            "command_cooldown_hours": 3
+        },
+        "1275128475090554981": {
+            "server_id": 1275128475090554981,
+            "server_name": "Flame Mod Paradise",
+            "invite_link": "https://discord.gg/bc69nBzPgy",
+            "allowed_category_id": 1275853843443482709,
+            "category_link": "https://discord.com/channels/1275128475090554981/1275853843443482709",
+            "bot_log": [
+                1275853847906222111,
+                1259612785889771530
+            ],
+            "allowed_uids": [],
+            "blacklist_uids": [],
+            "directories": {
+                "netflix": "D:/discord/netflix",
+                "prime": "D:\\discord\\prime video",
+                "crunchyroll": "D:\\discord\\crunchyroll",
+                "spotify": "D:\\discord\\spotify",
+                "hulu": "D:\\discord\\hulu"
+            },
+            "admin_role_ids": [
+                1214425391284883516,
+                1192694890530869369
+            ],
+            "whitelist": {},
+            "command_cooldown_hours": 3
+        }
+    }
+}

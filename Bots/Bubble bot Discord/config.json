@@ -1,0 +1,29 @@
+{
+    "token": "",
+    "bot_owner_id": "1192694890530869369",
+    "servers": {
+        "1275128475090554981": {
+            "server_id": "1275128475090554981",
+            "invite_link": "https://discord.gg/Vhd7eVDZuf",
+            "allowed_category_id": 1275853843443482709,
+            "category_link": "https://discord.com/channels/1275128475090554981/1275853843443482709",
+            "bot_log": 1275853847906222111,
+            "allowed_uids": [],
+            "blacklist_uids": [],
+            "directories": {
+                "netflix": "E:/discord/cookie/netflix",
+                "prime": "E:\\discord\\cookie\\prime video",
+                "spotify": "E:\\discord\\cookie\\spotify"
+            },
+            "admin_role_ids": [
+                1214425391284883516
+            ],
+            "whitelist": {
+                "1214425391284883516": {
+                    "remaining_uses": 999999
+                }
+            },
+            "command_cooldown_hours": 0.2
+        }
+    }
+}
