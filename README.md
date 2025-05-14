@@ -55,6 +55,7 @@ An experimental toolkit in development to detect patterns and flag anomalies in 
 
 ## 📫 Contact
 
+- **🌐 Portfolio:** [bijaykoirala0.com.np](https://bijaykoirala0.com.np)  
 - **Telegram:** [@flamemodparadise](https://t.me/flamemodparadise)  
 - **Email:** bijaykoirala003@gmail.com
 
