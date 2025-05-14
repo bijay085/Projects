@@ -1,0 +1,286 @@
+/* ========================= */
+/*       Contact Page        */
+/* ========================= */
+
+/* HERO HEADER */
+.contact-hero {
+    position: relative;
+    background: url('../assets/contact-hero.jpg') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.contact-hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 0 1rem;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.hero-content h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+}
+
+/* Fade in and Slide Up Animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* FLIP CARD CONTAINER */
+.contact-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+    justify-content: center;
+}
+
+/* Flip Card */
+.flip-card {
+    background: transparent;
+    width: 320px;
+    height: 320px;
+    perspective: 1000px;
+    animation: cardPop 0.6s ease-out;
+}
+
+@keyframes cardPop {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    60% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Flip Card Inner */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transform-style: preserve-3d;
+}
+
+/* 
+   By default, we use hover to flip on desktops that support hover.
+   If you have click-based flipping in JS for mobile, this won't conflict:
+   the .flipped class also triggers transform. 
+*/
+@media (hover: hover) {
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+}
+
+/* Manual toggle class if you want to handle clicks: */
+.flip-card-inner.flipped {
+    transform: rotateY(180deg);
+}
+
+/* Front and Back Side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Front Side */
+.flip-card-front {
+    background: #ffffff;
+    color: #333;
+}
+
+.flip-card-front img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.flip-card-front h3 {
+    font-size: 1.5rem;
+    color: #0288d1;
+    margin-bottom: 0.5rem;
+}
+
+.flip-card-front p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Back Side */
+.flip-card-back {
+    background: #0288d1;
+    color: #fff;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.flip-card-back p {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.flip-card-back a {
+    display: inline-block;
+    background: #fff;
+    color: #0288d1;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.flip-card-back a:hover {
+    background: #f0f0f0;
+}
+
+/* DARK MODE OVERRIDES */
+body.dark .contact-hero {
+    background: url('../assets/contact-hero-dark.jpg') center/cover no-repeat;
+}
+
+body.dark .flip-card-front {
+    background: #333333;
+    color: #e0e0e0;
+}
+
+body.dark .flip-card-front h3 {
+    color: #66cfff;
+}
+
+body.dark .flip-card-front p {
+    color: #cccccc;
+}
+
+body.dark .flip-card-back {
+    background: #37474f;
+    color: #f0f0f0;
+}
+
+body.dark .flip-card-back a {
+    background: #66cfff;
+    color: #000;
+}
+
+body.dark .flip-card-back a:hover {
+    background: #4aa5cc;
+}
+
+/* ========================= */
+/*      RESPONSIVE STYLES    */
+/* ========================= */
+
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+    .contact-hero {
+        height: 250px;
+    }
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+    .contact-card-wrapper {
+        gap: 1.5rem;
+        margin: 1.5rem 0;
+    }
+    .flip-card {
+        width: 90%;
+        max-width: 320px;
+        height: auto;
+    }
+    .flip-card-inner {
+        min-height: 320px;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .contact-hero {
+        height: 200px;
+    }
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+    .contact-card-wrapper {
+        gap: 1rem;
+        margin: 1.2rem 0;
+    }
+    .flip-card {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+    .flip-card-inner {
+        min-height: 300px;
+    }
+    .flip-card-front h3,
+    .flip-card-back h3 {
+        font-size: 1.3rem;
+    }
+    .flip-card-front p,
+    .flip-card-back p {
+        font-size: 0.9rem;
+    }
+}
+
+/* ============== LOGO OVERRIDE ================= */
+/* (temporary override in contact.css) */
+.logo img {
+    height: 100% !important;
+    width: 100% !important;
+    /* maintain aspect ratio if needed with object-fit */
+    object-fit: contain;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore real photos of products sold at Flame Mod Paradise, organized by category. Click on a category to view the full gallery; click an image to enlarge it in a modal with background blur." />
+  <meta name="keywords" content="Flame Mod Paradise, reviews, product photos, cookies sold, checker sold" />
+  
+  <!-- Open Graph Meta -->
+  <meta property="og:title" content="Reviews - Flame Mod Paradise" />
+  <meta property="og:description" content="Discover real product photos from our sales, organized by category." />
+  <meta property="og:url" content="https://flamemodparadise.github.io/My-Site/pages/reviews.html" />
+  <meta property="og:image" content="../assets/icons/fmp-icon.gif" />
+  
+  <!-- Twitter Card Meta -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Reviews - Flame Mod Paradise" />
+  <meta name="twitter:description" content="Explore real customer product photos, grouped by category. Click an image to enlarge it." />
+  <meta name="twitter:image" content="../assets/icons/fmp-icon.gif" />
+
+  <title>Reviews - Flame Mod Paradise</title>
+  
+  <!-- Global Stylesheet -->
+  <link rel="stylesheet" href="../style.css" />
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+  <!-- Reviews Page Specific Stylesheet -->
+  <link rel="stylesheet" href="../styles/reviews.css" />
+</head>
+<body>
+  <!-- HEADER (NAVBAR) -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <a class="logo" href="../index.html">
+        <img src="../assets/icons/fmp-icon.gif" alt="Flame Mod Paradise Logo" style="height:40px;" />
+      </a>
+    </div>
+    <button aria-label="Toggle menu" class="navbar-toggle" id="navbarToggle">☰</button>
+    <div class="navbar-right" id="navbarMenu">
+      <a href="../index.html">Home</a>
+      <a href="reviews.html" class="active">Reviews</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+      <button id="darkToggle" title="Toggle Dark Mode">💡</button>
+    </div>
+  </nav>
+
+  <!-- HERO HEADER -->
+  <header class="reviews-hero" style="background-image: url('../assets/reviews-hero.jpg');">
+    <div class="overlay"></div>
+    <div class="hero-content container">
+      <h1>Customer Reviews</h1>
+      <p>Real photos of products sold, organized by category. Click a category to see the full gallery.</p>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="reviews-main container">
+    <!-- CATEGORY OVERVIEW: Each category shows a stacked 3‑photo collage -->
+    <section id="categoryOverview">
+      <p>Loading categories...</p>
+    </section>
+
+    <!-- DETAIL VIEW: Full library gallery for a selected category -->
+    <section id="categoryDetail" class="hidden">
+      <button id="backButton" class="back-btn">← Back</button>
+      <h2 id="detailTitle"></h2>
+      <div id="detailPhotos" class="detail-photos-grid"></div>
+    </section>
+  </main>
+  <!-- SCROLL TO TOP BUTTON -->
+  <button id="scrollToTopBtn" title="Go to top">
+    <img src="../assets/icons/turn-up.gif" alt="🔝" />
+  </button>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section contact">
+        <h2>
+          <img src="../assets/icons/contact.gif" alt="Contact Icon" class="footer-icon" />
+          Contact
+        </h2>
+        <p>For purchases, support, or custom orders, reach out via:</p>
+        <ul>
+          <li>
+            <a href="https://t.me/fmpChatBot" target="_blank">
+              <img src="../assets/icons/footers-icons/bot.png" alt="Telegram Bot Icon" class="footer-subicon" />
+              Telegram Bot: @fmpChatBot
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/flamemodparadise" target="_blank">
+              <img src="../assets/icons/footers-icons/telegram.png" alt="Personal Telegram Icon" class="footer-subicon" />
+              Personal Telegram: @flamemodparadise
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <img src="../assets/icons/footers-icons/discord.png" alt="Discord Icon" class="footer-subicon" />
+              Discord: YourDiscordHandle
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-section links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li>
+            <a href="../index.html">
+              <img src="../assets/icons/footers-icons/house.png" alt="Home Icon" class="footer-subicon" />
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="reviews.html">
+              <img src="../assets/icons/footers-icons/reviews.png" alt="Reviews Icon" class="footer-subicon" />
+              Reviews
+            </a>
+          </li>
+          <li>
+            <a href="contact.html">
+              <img src="../assets/icons/footers-icons/phone.png" alt="Contact Icon" class="footer-subicon" />
+              Contact
+            </a>
+          </li>
+          <li>
+            <a href="faq.html">
+              <img src="../assets/icons/footers-icons/faq.png" alt="FAQ Icon" class="footer-subicon" />
+              FAQ
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-section resources">
+        <h2>Resources</h2>
+        <ul>
+          <li>
+            <a href="../resources/tos.html">
+              <img src="../assets/icons/footers-icons/terms.png" alt="Terms &amp; Conditions" class="footer-subicon" />
+              Terms &amp; Conditions
+            </a>
+          </li>
+          <li>
+            <a href="../resources/privacy.html">
+              <img src="../assets/icons/footers-icons/privacy.png" alt="Privacy Policy" class="footer-subicon" />
+              Privacy Policy
+            </a>
+          </li>
+          <li>
+            <a href="../resources/about.html">
+              <img src="../assets/icons/footers-icons/info.png" alt="About Us" class="footer-subicon" />
+              About Us
+            </a>
+          </li>
+          <li>
+            <a href="../resources/sitemap.html">
+              <img src="../assets/icons/footers-icons/site.png" alt="Sitemap Icon" class="footer-subicon" />
+              Sitemap
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr class="footer-divider" />
+    <div class="footer-bottom">
+      <p>© 2025 Flame Mod Paradise. All rights reserved.</p>
+      <p>Use these tools responsibly. No refunds for digital items after purchase.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="../script.js" defer></script>
+  <script src="../scripts/reviews.js" defer></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("../service-worker.js")
+          .then(reg => console.log("✅ Service Worker registered:", reg.scope))
+          .catch(err => console.error("❌ Service Worker error:", err));
+      });
+    }
+  </script>
+  <noscript>
+    <p>Enable JavaScript for better site readability.<hr /></p>
+  </noscript>
+</body>
+</html>

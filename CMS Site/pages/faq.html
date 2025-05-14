@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <meta name="description" content="Frequently Asked Questions about Flame Mod Paradise (FMP), covering premium mods, tools, and exclusive freebies like Netflix cookies, Spotify cookies, Hotstar cookies, ChatGPT cookies, and more." />
+  <meta name="keywords" content="Flame Mod Paradise, FMP FAQ, premium mods, automation tools, Netflix cookies, Spotify cookies, Hotstar cookies, ChatGPT cookies" />
+
+  <meta property="og:title" content="FAQ - Flame Mod Paradise" />
+  <meta property="og:description" content="Find answers to common questions about premium mods, automation tools, and free cookies at Flame Mod Paradise." />
+  <meta property="og:url" content="https://flamemodparadise.github.io/My-Site/pages/faq.html" />
+  <meta property="og:image" content="../assets/icons/fmp-icon.gif" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="FAQ - Flame Mod Paradise" />
+  <meta name="twitter:description" content="Your questions answered about Flame Mod Paradise's premium mods, automation tools, and more." />
+  <meta name="twitter:image" content="../assets/icons/fmp-icon.gif" />
+
+  <title>FAQ - Flame Mod Paradise</title>
+
+  <!-- Main/global stylesheet -->
+  <link rel="stylesheet" href="../style.css" />
+  
+  <!-- Optional Google Font(s) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+  
+  <!-- FAQ-specific CSS -->
+  <link rel="stylesheet" href="../styles/faq.css" />
+</head>
+
+<body id="top">
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <a class="logo" href="../index.html">
+        <img src="../assets/icons/fmp-icon.gif" alt="Logo" />
+      </a>
+    </div>
+    <button aria-label="Toggle menu" class="navbar-toggle" id="navbarToggle">☰</button>
+    <div class="navbar-right" id="navbarMenu">
+      <a href="../index.html">Home</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html" class="active">FAQ</a>
+      <button id="darkToggle" title="Toggle Dark Mode">💡</button>
+    </div>
+  </nav>
+
+  <!-- SEARCH BAR (Optional) -->
+  <div class="search-bar-true-right">
+    <div class="search-group">
+      <input id="searchInput" type="text" placeholder="Search..." />
+      <select id="sortSelect">
+        <option value="name">Name A → Z</option>
+        <option value="release_date">Newest</option>
+        <option value="update_date">Updated</option>
+        <option value="discount">Top Discount</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- HEADER / BANNER -->
+  <header class="container">
+    <h1 class="title">Frequently Asked Questions (FAQ)</h1>
+    <p class="notice">
+      Got a question about Flame Mod Paradise? Check out our FAQ below or
+      <a href="contact.html">contact us</a>.
+    </p>
+  </header>
+  <div class="banner hidden" id="announcement-banner">
+    <p>
+      🎁 Special Offer: 25% OFF on selected tools this week!
+      <a href="#">Learn more</a>
+    </p>
+    <button id="close-banner">✖</button>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
+    <!-- Optional controls for opening/closing all FAQs -->
+    <div class="faq-controls">
+      <button id="openAllBtn">Open All</button>
+      <button id="closeAllBtn">Close All</button>
+    </div>
+
+    <!-- Container for FAQs, loaded dynamically -->
+    <section id="faq-container"></section>
+  </main>
+
+  <!-- POPUP BOX FOR REQUIREMENTS (optional) -->
+  <div class="popup-box hidden" id="popupMessage">
+    <div class="popup-content">
+      <h3 id="popupTitle">Requirements</h3>
+      <p id="popupText"></p>
+      <button class="close-popup-btn" onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <!-- SCROLL TO TOP BUTTON (optional) -->
+  <button id="scrollToTopBtn" title="Go to top">
+    <img src="../assets/icons/turn-up.gif" alt="🔝" />
+  </button>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <!-- CONTACT SECTION -->
+      <div class="footer-section contact">
+        <h2>
+          <img src="../assets/icons/contact.gif" alt="Contact Icon" class="footer-icon" />
+          Contact
+        </h2>
+        <p>For purchases, support, or custom orders, reach out via:</p>
+        <ul>
+          <li>
+            <a href="https://t.me/fmpChatBot" target="_blank">
+              <img src="../assets/icons/footers-icons/bot.png" alt="Telegram Bot Icon" class="footer-subicon" />
+              Telegram Bot: @fmpChatBot
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/flamemodparadise" target="_blank">
+              <img src="../assets/icons/footers-icons/telegram.png" alt="Personal Telegram Icon" class="footer-subicon" />
+              Personal Telegram: @flamemodparadise
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <img src="../assets/icons/footers-icons/discord.png" alt="Discord Icon" class="footer-subicon" />
+              Discord: YourDiscordHandle
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- QUICK LINKS SECTION -->
+      <div class="footer-section links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li>
+            <a href="../index.html">
+              <img src="../assets/icons/footers-icons/house.png" alt="Home Icon" class="footer-subicon" />
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="reviews.html">
+              <img src="../assets/icons/footers-icons/reviews.png" alt="Reviews Icon" class="footer-subicon" />
+              Reviews
+            </a>
+          </li>
+          <li>
+            <a href="contact.html">
+              <img src="../assets/icons/footers-icons/phone.png" alt="Contact Icon" class="footer-subicon" />
+              Contact
+            </a>
+          </li>
+          <li>
+            <a href="faq.html">
+              <img src="../assets/icons/footers-icons/faq.png" alt="FAQ Icon" class="footer-subicon" />
+              FAQ
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- RESOURCES SECTION -->
+      <div class="footer-section resources">
+        <h2>Resources</h2>
+        <ul>
+          <li>
+            <a href="../resources/tos.html">
+              <img src="../assets/icons/footers-icons/terms.png" alt="Terms &amp; Conditions" class="footer-subicon" />
+              Terms &amp; Conditions
+            </a>
+          </li>
+          <li>
+            <a href="../resources/privacy.html">
+              <img src="../assets/icons/footers-icons/privacy.png" alt="Privacy Policy" class="footer-subicon" />
+              Privacy Policy
+            </a>
+          </li>
+          <li>
+            <a href="../resources/about.html">
+              <img src="../assets/icons/footers-icons/info.png" alt="About Us" class="footer-subicon" />
+              About Us
+            </a>
+          </li>
+          <li>
+            <a href="../resources/sitemap.html">
+              <img src="../assets/icons/footers-icons/site.png" alt="Sitemap Icon" class="footer-subicon" />
+              Sitemap
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <hr class="footer-divider" />
+    <div class="footer-bottom">
+      <p>© 2025 Flame Mod Paradise. All rights reserved.</p>
+      <p>Use these tools responsibly. No refunds for digital items after purchase.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="../script.js" defer></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("../service-worker.js")
+          .then((reg) => console.log("✅ Service Worker registered:", reg.scope))
+          .catch((err) => console.error("❌ Service Worker error:", err));
+      });
+    }
+  </script>
+  <script src="../scripts/faq.js"></script>
+  
+  <noscript>
+    <p>Enable JavaScript for better site readability.<hr /></p>
+  </noscript>
+</body>
+</html>

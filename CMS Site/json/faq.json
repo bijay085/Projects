@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is Flame Mod Paradise?",
+    "answer": "Flame Mod Paradise is a static website that showcases our premium mods, custom tools, and verified Steam game keys. You can review product details, prices, and current offers, and then contact us for a personalized purchase."
+  },
+  {
+    "question": "How do I purchase a product and what payment methods are accepted?",
+    "answer": "Since our site is catalog-only, you’ll need to contact me via Telegram or Discord to place an order. I accept payments through Binance and most major cryptocurrencies using crypto wallets."
+  },
+  {
+    "question": "Are your products genuine and secure?",
+    "answer": "Yes. All my Steam keys are genuine and sourced from authorized vendors, and my tools and mods are developed in-house and thoroughly tested. If you have any concerns, feel free to reach out directly."
+  },
+  {
+    "question": "Do you offer refunds or exchanges?",
+    "answer": "No. Due to the digital nature of these products, once an order is delivered refunds or exchanges are not available. Please review all product details carefully and ask any questions before ordering."
+  },
+  {
+    "question": "How quickly will I receive my order?",
+    "answer": "Digital products such as Steam keys and tools are typically delivered immediately after payment confirmation. For custom orders, I will provide an estimated delivery timeframe during the ordering process."
+  },
+  {
+    "question": "What support is available if I encounter issues?",
+    "answer": "If you experience any issues after your purchase, just message me on the same platform you used to order—Telegram or Discord—and I’ll personally help you troubleshoot or guide you through using the product."
+  },
+  {
+    "question": "If I buy a 1-day test and want to upgrade, is there a discount?",
+    "answer": "Yes. If you purchase a 1-day test and decide to upgrade to a 1-month, lifetime, or source-level plan within 24 hours, the cost of the test will be deducted from the new plan's price. However, this offer is only valid within 24 hours of your test purchase."
+  },
+  {
+    "question": "Are time-unlimited offers or discounts valid beyond 24 hours?",
+    "answer": "No. Even if an offer, discount, or deal is given without a specific time limit—whether private or public—it is only valid for 24 hours. After that, it will no longer be honored."
+  },
+  {
+    "question": "How does licensing work, and is the activation script safe?",
+    "answer": "All my tools and checkers require license activation. You'll need to run a simple script that retrieves your CPU or processor ID and send it to me so I can generate your license. This license is device-specific and cannot be used on multiple devices. The script is 100% safe—there are no viruses, and you can open it in Notepad to verify. If you'd prefer not to run the script, you can send me your processor ID manually instead."
+  },
+  {
+    "question": "What happens if a checker stops working due to server-side changes?",
+    "answer": "If a checker stops working because the server changed its API or data, that’s called a 'patch'. You will get the patch update only if you bought the 'including patch' plan. If you bought a 'without patch' plan, then patch is not included. If you want the patch after buying without patch, you can get it for $4 (EXE version). Captcha-related changes are never included because they require full rewriting. If you bought the source code, patches are also not included. Once you own the source, it's 100% your responsibility. You can modify, resell, or update it however you want. If you want me to fix or update your source code, I can do it for $5. Patch delivery may take up to a week depending on my free time."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "category": "Cookies Sold",
+    "images": [
+      "../assets/reviews/nfcookies1.png",
+      "../assets/reviews/nfcookies2.png",
+      "../assets/reviews/nfcookies3.png",
+      "../assets/reviews/nfcookies4.png",
+      "../assets/reviews/nfcookies5.png",
+      "../assets/reviews/nfcookies6.png",
+      "../assets/reviews/nfcookies7.png",
+      "../assets/reviews/nfcookies8.png",
+      "../assets/reviews/nfcoookies9.png",
+      "../assets/reviews/nfcookies10.png",
+      "../assets/reviews/nfcookies11.png",
+      "../assets/reviews/nfcookies12.png",
+      "../assets/reviews/nfcookies13.png", 
+      "../assets/reviews/nfcookies14.png", 
+      "../assets/reviews/hotstarcookies1.png",
+      "../assets/reviews/hotstarcookies2.png",
+      "../assets/reviews/gptcookie1.png"
+    ]
+  },
+  {
+    "category": "Netflix Cookie Checker Sold",
+    "images": [
+      "../assets/reviews/nfchecker1.png",
+      "../assets/reviews/nfchecker2.png",
+      "../assets/reviews/nfchecker3.png"
+    ]
+  },
+  {
+    "category": "Netflix C2P Method",
+    "images": [
+      "../assets/reviews/nfc2p1.png"
+    ]
+  },
+  {
+    "category": "Netflix Cookie Privatzing Sold",
+    "images": [
+      "../assets/reviews/nfprivatizer1.png",
+      "../assets/reviews/nfprivatizer2.png",
+      "../assets/reviews/nfprivatizer3.png"
+    ]
+  },
+  {
+    "category": "Gpt Cookie Checker Sold",
+    "images": [
+      "../assets/reviews/gptchecker1.png",
+      "../assets/reviews/gptchecker2.png",
+      "../assets/reviews/gptchecker3.png",
+      "../assets/reviews/gptchecker4.png"
+    ]
+  },
+  {
+    "category": "Hotstar Cookie Checker Sold",
+    "images": [
+      "../assets/reviews/hotstarchecker1.png"
+    ]
+  },
+  {
+    "category": "Hulu Checker Sold",
+    "images": [
+      "../assets/reviews/hulucookiechecker1.png"
+    ]
+  },
+  {
+    "category": "2cpatcha Cookie Checker Sold",
+    "images": [
+      "../assets/reviews/2captchacookiechecker1.png"
+    ]
+  },
+  {
+    "category": "Freepik Cookie Checker Sold",
+    "images": [
+      "../assets/reviews/freepik1.png",
+      "../assets/reviews/freepik2.png"
+    ]
+  },
+  {
+    "category": "PerlixityAi Cookie Checker Sold",
+    "images": [
+      "../assets/reviews/perlixity-claude1.png"
+    ]
+  },
+  {
+    "category": "ClaudeAi Cookie Checker Sold",
+    "images": [
+      "../assets/reviews/perlixity-claude1.png"
+    ]
+  },
+  {
+    "category": "Log Extractor Sold",
+    "images": [
+      "../assets/reviews/logextractor1.png"
+    ]
+  }
+]

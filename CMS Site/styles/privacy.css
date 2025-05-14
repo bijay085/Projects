@@ -1,0 +1,88 @@
+/* =========================== */
+/*       PRIVACY SECTION       */
+/* =========================== */
+.privacy-box {
+    max-width: 850px;
+    background: #fff;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    border-left: 5px solid var(--color-primary);
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.85;
+    color: #333;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.privacy-box h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-primary);
+}
+
+.privacy-box p {
+    margin-bottom: 1.8rem;
+}
+
+/* Dark Mode Override */
+body.dark .privacy-box {
+    background: #1f1f1f;
+    color: #ccc;
+}
+
+/* 
+     Add an optional transition to the body or :root if you'd like 
+     smooth dark-mode switching:
+     */
+body {
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* =========================== */
+/*       RESPONSIVE STYLES     */
+/* =========================== */
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+    .privacy-box {
+        margin: 2rem auto;
+        padding: 2rem;
+        font-size: 1rem;
+    }
+
+    .privacy-box h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .privacy-box {
+        margin: 1.5rem auto;
+        padding: 1.5rem;
+        font-size: 0.95rem;
+    }
+
+    .privacy-box h2 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* =========================== */
+/*     OPTIONAL LOGO FIX       */
+/* =========================== */
+.logo img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+    /* maintains aspect ratio if different than container’s */
+}
+
+/* =========================== */
+/*   OPTIONAL FLIP-CARD FIX    */
+/* =========================== */
+.flip-card-inner.flipped {
+    transform: rotateY(180deg);
+}

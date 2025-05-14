@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Custom Discord Bot",
+    "type": "Bots",
+    "description": "Build your own Discord bot with features you need.",
+    "long_description": "🤖 Custom Discord Bot\n\n• Get a bot fully designed for your server.\n• Includes:\n  - Auto roles\n  - Moderation\n  - Giveaways",
+    "requirements": "I'll handle the first-time setup. After that, you'll manage future changes or updates yourself (basic Python knowledge is recommended).",
+    "image": "assets/bots/discord.jpg",
+    "tags": ["discord", "moderation", "giveaway", "automation"],
+    "release_date": "2025-04-01",
+    "update_date": "2025-04-03",
+    "price": "$5 – $15 (depends on features)",
+    "contact": "telegram",
+    "keywords": ["discord bot", "moderation", "giveaway", "custom", "auto role"],
+    "discount": "Lifetime Deal",
+    "discount_expiry": null,
+    "offer": "1-Day Setup Included",
+    "offer_expiry": "2025-04-15"
+  },
+  {
+    "name": "Custom Telegram Bot",
+    "type": "Bots",
+    "description": "Custom Telegram bot for shops, support, or automation.",
+    "long_description": "📩 Custom Telegram Bot\n• Get a Telegram bot tailored to your use-case.",
+    "requirements": "I'll do the initial setup. After that, you'll need to manage future use or updates on your own (some bot familiarity recommended).",
+    "image": "assets/bots/telegram.png",
+    "tags": ["telegram", "file", "support", "shop", "bot"],
+    "release_date": "2025-04-01",
+    "update_date": "2025-04-03",
+    "price": "$5 – $15 (depends on features)",
+    "contact": "telegram",
+    "keywords": ["telegram bot", "file bot", "scraper", "automation", "custom"],
+    "discount": "Lifetime Deal",
+    "discount_expiry": null,
+    "offer": "1-Day Setup Included",
+    "offer_expiry": "2025-04-16"
+  }
+]

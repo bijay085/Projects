@@ -1,0 +1,35 @@
+{
+    "offers": [
+      {
+        "id": "offer_1",
+        "title": "Premium Bot Pack",
+        "description": "Get access to a collection of premium bots for automating tasks and improving productivity.",
+        "price": 29.99,
+        "currency": "USD",
+        "availability": "In Stock",
+        "image": "assets/images/offer_1.png",
+        "url": "/offer/premium-bot-pack"
+      },
+      {
+        "id": "offer_2",
+        "title": "Automation Scripts",
+        "description": "A variety of automation scripts to streamline repetitive tasks and save time.",
+        "price": 19.99,
+        "currency": "USD",
+        "availability": "In Stock",
+        "image": "assets/images/offer_2.png",
+        "url": "/offer/automation-scripts"
+      },
+      {
+        "id": "offer_3",
+        "title": "Toolstore Membership",
+        "description": "Become a member of Toolstore and enjoy discounts, early access, and exclusive offers.",
+        "price": 49.99,
+        "currency": "USD",
+        "availability": "Limited Time Offer",
+        "image": "assets/images/offer_3.png",
+        "url": "/offer/toolstore-membership"
+      }
+    ]
+  }
+  

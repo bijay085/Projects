@@ -1,0 +1,186 @@
+[
+  {
+    "name": "Tools Membership",
+    "type": "Membership",
+    "description": "Access to all private tools and cookie checkers with license",
+    "long_description": "🛠️ Tools Membership\n• Private channel access for all current and future tools.\n• Includes 10+ working cookie checkers.\n• Each member gets personal license (no source, only .exe).\n• Tools may take time — not daily posts.\n• Limited to 15 members max.",
+    "requirements": "Tools are .exe only. No source code. Active license provided. Not suitable for mobile use.",
+    "image": "assets/membership/tools.png",
+    "tags": [
+      "tools",
+      "cookie",
+      "checkers",
+      "membership"
+    ],
+    "release_date": "2025-05-02",
+    "update_date": "2025-05-02",
+    "price": "$30/month",
+    "contact": "telegram",
+    "keywords": [
+      "tools membership",
+      "cookie checker access",
+      "software license",
+      "exclusive tools",
+      "membership"
+    ],
+    "stock_limit": 15
+  },
+  {
+    "name": "Cookie Membership",
+    "type": "Membership",
+    "description": "Private cookie drops not posted elsewhere",
+    "long_description": "🍪 Cookie Membership\n• Private cookies from multiple sites.\n• Drops every 3–4 days (minimum).\n• These are not posted in public or other channels.\n• Max 5 members only.",
+    "requirements": "Drops based on what’s extracted. No direct requests. Quality over quantity.",
+    "image": "assets/membership/cookie.png",
+    "tags": [
+      "cookies",
+      "private group",
+      "exclusive",
+      "membership"
+    ],
+    "release_date": "2025-05-02",
+    "update_date": "2025-05-02",
+    "price": "$5/month",
+    "contact": "telegram",
+    "keywords": [
+      "cookie membership",
+      "exclusive cookies",
+      "site cookies",
+      "hidden drops",
+      "membership"
+    ],
+    "stock_limit": 5
+  },
+  {
+    "name": "GPT Membership",
+    "type": "Membership",
+    "description": "Access GPT via cookie with limited daily usage",
+    "long_description": "🤖 GPT Cookie Plan\n• Use GPT through browser cookies.\n• Limit: 1 cookie every 2 days.\n• Replacement if expired.\n• Works only on browser (Firefox preferred).\n• Only replacement.",
+    "requirements": "Cookies are browser-based only.\nNo sharing or misuse.\nReplacement only within limits.",
+    "image": "assets/membership/gpt.png",
+    "tags": [
+      "gpt",
+      "cookies",
+      "browser",
+      "ai",
+      "membership"
+    ],
+    "release_date": "2025-05-02",
+    "update_date": "2025-05-02",
+    "price": "10days: 1$ \n15days: 1.5$ \n1month: $4\n (Invite on mail : 4$ | 100% autopay but luck based random life.)",
+    "contact": "telegram",
+    "keywords": [
+      "gpt membership",
+      "ai access",
+      "gpt cookies",
+      "browser gpt",
+      "chatgpt"
+    ],
+    "stock_limit": "Unlimited"
+  },
+  {
+    "name": "Netflix TV Membership",
+    "type": "Membership",
+    "description": "Monthly Netflix access for TV (HD or UHD)",
+    "long_description": "📺 Netflix TV Plan\n• HD Plan available.\n• UHD Plan available.\n• For TV access only.\n• Setup support is not provided.\n• Only replacement.",
+    "requirements": "TV setup is your own responsibility. No guide or help will be given. Access only, no cookie sharing.",
+    "image": "assets/membership/netflixTv.jpg",
+    "tags": [
+      "netflix",
+      "tv",
+      "hd",
+      "uhd",
+      "membership"
+    ],
+    "release_date": "2025-05-02",
+    "update_date": "2025-05-02",
+    "price": "- HD: $2/month\n- UHD: $3.5/month",
+    "contact": "telegram",
+    "keywords": [
+      "netflix tv",
+      "netflix hd",
+      "netflix uhd",
+      "streaming access",
+      "tv plan"
+    ],
+    "stock_limit": "Unlimited"
+  },
+  {
+    "name": "Hotstar Membership",
+    "type": "Membership",
+    "description": "Hotstar access for 1 month (India only)",
+    "long_description": "📺 Hotstar Membership\n• 1 month access.\n• India only.\n• Only replacement.",
+    "requirements": "Must be in India. No sharing or misuse.",
+    "image": "assets/membership/hotstar.png",
+    "tags": [
+      "hotstar",
+      "india",
+      "streaming",
+      "membership"
+    ],
+    "release_date": "2025-05-02",
+    "update_date": "2025-05-02",
+    "price": "$2/month",
+    "contact": "telegram",
+    "keywords": [
+      "hotstar membership",
+      "streaming access",
+      "india hotstar",
+      "hotstar plan",
+      "membership"
+    ],
+    "stock_limit": "Unlimited"
+  },
+  {
+    "name": "PrimeVideo Membership",
+    "type": "Membership",
+    "description": "Prime Video access for 1 month.",
+    "long_description": "📺 Prime Video Membership\n• 1 month access.\n• Only replacement.",
+    "requirements": "Must be in India. No sharing or misuse.",
+    "image": "assets/membership/primevideo.png",
+    "tags": [
+      "prime",
+      "video",
+      "streaming",
+      "membership"
+    ],
+    "release_date": "2025-05-02",
+    "update_date": "2025-05-02",
+    "price": "$2/month",
+    "contact": "telegram",
+    "keywords": [
+      "prime video membership",
+      "streaming access",
+      "india prime",
+      "prime plan",
+      "membership"
+    ],
+    "stock_limit": "Unlimited"
+  },
+  {
+    "name": "Spotify Membership",
+    "type": "Membership",
+    "description": "Spotify access for 1 month.",
+    "long_description": "🎵 Spotify Membership\n• 1 month access.\n• Only replacement.",
+    "requirements": "Must be in India. No sharing or misuse.",
+    "image": "assets/membership/spotify.png",
+    "tags": [
+      "spotify",
+      "music",
+      "streaming",
+      "membership"
+    ],
+    "release_date": "2025-05-02",
+    "update_date": "2025-05-02",
+    "price": "$1/month",
+    "contact": "telegram",
+    "keywords": [
+      "spotify membership",
+      "music streaming",
+      "india spotify",
+      "spotify plan",
+      "membership"
+    ],
+    "stock_limit": "Unlimited"
+  }
+]

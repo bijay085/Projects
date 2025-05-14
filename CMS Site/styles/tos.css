@@ -1,0 +1,143 @@
+/* ==================== */
+/* GLOBAL RESET         */
+/* ==================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==================== */
+/* LIGHT MODE (BASE)    */
+/* ==================== */
+#termsContainer.terms-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+  border-left: 5px solid var(--color-primary);
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Heading Section */
+.terms-heading h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+}
+.terms-heading p {
+  margin-bottom: 1.25rem;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+/* Terms Content */
+.terms-content {
+  background-color: transparent;
+}
+
+/* Numbered List */
+.terms-list {
+  list-style: none;
+  counter-reset: termIndex;
+  margin: 0;
+  padding: 0;
+}
+.terms-item {
+  counter-increment: termIndex;
+  margin-bottom: 1.2rem;
+}
+.terms-item::before {
+  content: counter(termIndex) ". ";
+  font-weight: 700;
+  color: var(--color-primary);
+}
+.terms-item-heading {
+  display: inline;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+.terms-item-paragraph {
+  display: block;
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+  color: #333;
+  line-height: 1.7;
+  white-space: normal;
+  text-indent: 0;
+}
+
+/* ==================== */
+/* DARK MODE OVERRIDES  */
+/* ==================== */
+body.dark #termsContainer.terms-page {
+  background: #1f1f1f;
+  color: #ccc;
+}
+body.dark .terms-heading h2,
+body.dark .terms-heading p {
+  color: #ccc;
+}
+body.dark .terms-item-heading,
+body.dark .terms-item-paragraph {
+  color: #ccc;
+}
+
+/* ==================== */
+/* RESPONSIVENESS       */
+/* ==================== */
+@media (max-width: 768px) {
+  #termsContainer.terms-page {
+    padding: 1.5rem;
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+  .terms-heading h2 {
+    font-size: 1.3rem;
+  }
+  .terms-heading p {
+    font-size: 1rem;
+  }
+  .terms-item-heading {
+    font-size: 1.05rem;
+  }
+}
+@media (max-width: 480px) {
+  #termsContainer.terms-page {
+    padding: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  .terms-heading h2 {
+    font-size: 1.1rem;
+  }
+  .terms-heading p {
+    font-size: 0.95rem;
+  }
+  .terms-item-heading {
+    font-size: 1rem;
+  }
+  .terms-item-paragraph {
+    font-size: 0.95rem;
+  }
+}
+
+/* ==================== */
+/* GLOBAL FIXES         */
+/* ==================== */
+.logo img {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: contain;
+}
+.flip-card-inner.flipped {
+  transform: rotateY(180deg);
+}

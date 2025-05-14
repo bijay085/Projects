@@ -1,0 +1,597 @@
+[
+  {
+    "type": "Checker",
+    "name": "Netflix Cookie Checker",
+    "description": "Effortlessly validate Netflix cookies and capture slot details.",
+    "long_description": "✅ Capture complete slot details with precision.\n🌐 Recommended to use a VPN to bypass IP restrictions.\n⚙️ Compatible with all cookie types.\n⏱️ Provides reliable output without skipping.",
+    "requirements": "✅ A VPN is required to avoid IP bans.",
+    "image": "assets/checkers-pic/netflix.png",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/netflix.png",
+      "assets/checkers-pic/checking.png",
+      "assets/checkers-pic/checking/netflix2.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "2025-04-25",
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-01",
+    "tags": ["netflix"],
+    "keywords": [
+      "netflix slot checker",
+      "check netflix cookies",
+      "netflix account status",
+      "slot capture netflix",
+      "netflix cookies tool"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Month": "$8 or 20 TP Cookies",
+      "2 Months": "$14 or 35 TP Cookies",
+      "3 Months": "$17 or 43 TP Cookies",
+      "Lifetime": "$23 or 60 TP Cookies or 15 TP monthly",
+      "Source Code": "$25",
+      "Custom Function": "+$5"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Netflix Cookie Privatizer",
+    "description": "Securely privatize Netflix cookies with ease.",
+    "long_description": "🔐 Safely privatize any Netflix cookies.\n🚫 No modifications or negotiations allowed.\n🌍 VPN support is recommended for a seamless experience.",
+    "requirements": "✅ Use this tool only for privatizing cookies, not for checking them.",
+    "image": "assets/checkers-pic/netflix.png",
+    "video": "",
+    "images": [],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "2025-04-25",
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-01",
+    "tags": ["netflix", "privatizer"],
+    "keywords": [
+      "netflix cookie privatizer",
+      "make netflix cookies private",
+      "cookie isolation netflix"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Month": "$10 or 25 Cookies",
+      "3 Months": "$20 or 50 Cookies",
+      "Lifetime": "$25 or 15 Cookies monthly (No Patch)",
+      "Source Code": "$30"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "ChatGPT Cookie Checker",
+    "description": "Validate GPT+ cookies and determine access status.",
+    "long_description": "🤖 Supports GPT+ cookies validation.\n🟢 Identifies valid, invalid, and expired cookies.\n⚡ Optimized for performance and works without proxies.\n📈 Ideal for bulk validation tasks.\n📝 Now includes detection for half-pro subscriptions.",
+    "requirements": "✅ No specific requirements.",
+    "image": "assets/checkers-pic/chatgpt.jpg",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/gpt1.png",
+      "assets/checkers-pic/checking/gpt2.png",
+      "assets/checkers-pic/checking/gpt3.png",
+      "assets/checkers-pic/checking/gpt4.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "2025-04-25",
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-22",
+    "tags": ["gpt", "chatgpt"],
+    "keywords": [
+      "chatgpt cookie check",
+      "validate gpt cookies",
+      "gpt plus status checker",
+      "chatgpt login session",
+      "gpt access tool",
+      "chatgpt",
+      "gpt"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Month": "$4",
+      "2 Months": "$6",
+      "Lifetime (No Patch)": "$13",
+      "Lifetime (Inc Patch)": "$17",
+      "Source Code": "$20"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Outlook Cookie Checker and inbox Searcher",
+    "description": "Validate Outlook cookies and check inbox message according to keywords.",
+    "long_description": "Checks if Outlook cookies are valid and searches inboxes for keywords you provide.\nJust load your keyword list and select a logs folder — the tool will extract cookies, validate each one, and if valid, scan the inbox for your keywords.\nMatches are saved in organized folders with hit details and clean formatting. Fast, simple, and works with or without proxies.",
+    "requirements": "✅ Using outlook cookies is not same as others.\n🔍 You must have simple basic knowledge of microsoft outlook cookies.",
+    "image": "assets/checkers-pic/outlook.png",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/outlook1.png",
+      "assets/checkers-pic/checking/outlook2.png",
+      "assets/checkers-pic/checking/outlook3.png",
+      "assets/checkers-pic/checking/outlook4.png",
+      "assets/checkers-pic/checking/outlook5.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": null,
+    "release_date": "2025-05-13",
+    "update_date": "2025-05-13",
+    "tags": ["outlook", "microsoft", "hotmail", "inbox searcher"],
+    "keywords": [
+      "outlook cookie checker",
+      "outlook cookie checker and inbox searcher",
+      "microsoft cookie check",
+      "outlook inbox searcher",
+      "detect outlook cookies",
+      "outlook access tool",
+      "hotmail checker",
+      "hotmail inbox searcher",
+      "hotmail cookie checker",
+      "hotmail access tool",
+      "hotmail",
+      "microsoft",
+      "inbox searcher",
+      "inbox checker"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$3",
+      "1 Month": "$15",
+      "Lifetime (No Patch)": "$35",
+      "Source Code": "$50 (Pricy but worth it)"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Spotify Cookie Checker",
+    "description": "Identify free, premium, and mixed Spotify cookies.",
+    "long_description": "📦 Capture region and subscription details.\n🛡️ Efficient and works without proxies.\nCaptures spotify links and address.",
+    "requirements": "✅ No specific requirements.",
+    "image": "assets/checkers-pic/spotify.jpg",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/spotify1.png",
+      "assets/checkers-pic/checking/spotify2.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "2025-04-25",
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-01",
+    "tags": ["spotify"],
+    "keywords": [
+      "spotify cookie checker",
+      "check spotify login",
+      "spotify subscription detector",
+      "detect premium spotify",
+      "spotify access tool"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Month": "$3",
+      "2 Months": "$5",
+      "Lifetime (No Patch)": "$10",
+      "Source Code": "$13"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Jio Hotstar Cookie Checker",
+    "description": "Quickly validate Jio Hotstar cookies and retrieve account details.",
+    "long_description": "📺 Validate active Jio Hotstar cookies instantly.\n📍 Display region and package information.\n⚙️ Features a clean UI with fast, proxyless responses.",
+    "requirements": "✅ Use a VPN if you are not located in India.",
+    "image": "assets/checkers-pic/hotstar.png",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/hotstar1.png",
+      "assets/checkers-pic/checking/hotstar2.png",
+      "assets/checkers-pic/checking/hotstar3.png",
+      "assets/checkers-pic/checking/hotstar4.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "2025-04-25",
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-22",
+    "tags": ["jio hotstar"],
+    "keywords": [
+      "hotstar cookie check",
+      "validate hotstar cookie",
+      "check hotstar region",
+      "detect hotstar access",
+      "jio hotstar"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Month": "$3",
+      "2 Months": "$5",
+      "Lifetime (No Patch)": "$10",
+      "Source Code": "$15"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Prime Video Cookie Checker",
+    "description": "Verify Amazon Prime Video cookies globally.",
+    "long_description": "🎥 Detect valid, invalid, and region-specific Prime Video cookies.\n✅ Highlights account details with minimal setup.\n💡 Works seamlessly across regions.",
+    "requirements": "✅ No specific requirements.",
+    "image": "assets/checkers-pic/primevideo.jpg",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/primevideo1.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "2025-04-25",
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-01",
+    "tags": ["prime"],
+    "keywords": [
+      "prime video cookie check",
+      "amazon prime cookie tool",
+      "validate prime account",
+      "check amazon video cookie"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Month": "$3",
+      "2 Months": "$5",
+      "Lifetime (No Patch)": "$8",
+      "Source Code": "$10"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Crunchyroll Cookie Checker",
+    "description": "Validate Crunchyroll cookies and capture subscription details.",
+    "long_description": "📺 Designed for Crunchyroll account validation.\n🔓 Includes auto-captcha solving and works without proxies.\n🤖 Captures session, subscription, and region details.\n🎯 Organizes cookies for easy sorting.",
+    "requirements": "✅ No specific requirements.",
+    "image": "assets/checkers-pic/crunchyroll.png",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/crunchyroll1.png",
+      "assets/checkers-pic/checking/crunchyroll2.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "2025-04-25",
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-01",
+    "tags": ["crunchyroll"],
+    "keywords": [
+      "crunchyroll cookie checker",
+      "anime login checker",
+      "crunchyroll session status",
+      "region anime cookie check"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Week": "$4",
+      "30 Days": "$7",
+      "Lifetime (Inc Patch)": "$12",
+      "Source Code": "$15"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Hulu Cookie Checker",
+    "description": "Efficiently categorize and validate Hulu cookies.",
+    "long_description": "📺 Automatically detects and validates Hulu cookies.\n🔄 Sorts cookies based on access levels.\n🟢 Fast and works without proxies.",
+    "requirements": "✅ No specific requirements. However, finding Hulu cookies can be challenging due to low demand.",
+    "image": "assets/checkers-pic/hulu.jpg",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/hulu1.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "2025-04-25",
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-01",
+    "tags": ["hulu"],
+    "keywords": [
+      "hulu cookie check",
+      "validate hulu login",
+      "detect hulu subscription",
+      "auto-check hulu account"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Week": "$4",
+      "30 Days": "$7",
+      "Lifetime (Inc Patch)": "$12",
+      "Source Code": "$15"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Freepik Cookie Checker",
+    "description": "Freepik is an ai platform for designers to design and create images, video vectors, and more.",
+    "long_description": "🖼️ Check Freepik cookies for free or premium accounts.\n🔍 Detects account credits and basic details.\n📊 Efficient and works without proxies.\n🌍 Optional payment capture available for an additional $2.",
+    "requirements": "✅ Generally no requirements, but a VPN may be needed occasionally.",
+    "image": "assets/checkers-pic/freepik.png",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/freepik1.png",
+      "assets/checkers-pic/checking/freepik2.png",
+      "assets/checkers-pic/checking/freepik3.png",
+      "assets/checkers-pic/checking/freepik4.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": null,
+    "release_date": "2025-04-29",
+    "update_date": "2025-04-29",
+    "tags": ["freepik"],
+    "keywords": [
+      "freepik cookie checker"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Week": "$4",
+      "30 Days": "$7",
+      "Lifetime (No Patch)": "$15",
+      "Source Code": "$17"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Blackbox AI Cookie Checker",
+    "description": "Validate Blackbox AI cookies and capture subscription details.",
+    "long_description": "🤖 Detect valid, expired, and duplicate cookies.\n📊 Retrieve email and subscription ID details.\n🚀 Smooth and proxyless operation.",
+    "requirements": "✅ No specific requirements.",
+    "image": "assets/checkers-pic/blackboxai.png",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/blackboxai1.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "2025-04-25",
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-01",
+    "tags": ["blackbox"],
+    "keywords": [
+      "blackbox ai login",
+      "check blackbox cookie",
+      "detect blackbox subscription",
+      "ai tool checker"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Week": "$4",
+      "30 Days": "$7",
+      "Lifetime (No Patch)": "$12",
+      "Source Code": "$15"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "2Captcha Cookie Checker",
+    "description": "Validate 2Captcha API keys and token balances.",
+    "long_description": "🔑 Extract API keys and account balances.\n🦾 Stable and works without proxies.\n📊 Fast and efficient for token-based access validation.",
+    "requirements": "✅ No specific requirements.",
+    "image": "assets/checkers-pic/2captcha.png",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/2captcha1.png",
+      "assets/checkers-pic/checking/2captcha2.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "2025-04-25",
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-01",
+    "tags": ["2captcha"],
+    "keywords": [
+      "2captcha api key check",
+      "balance checker 2captcha",
+      "validate 2captcha token",
+      "captcha solver access"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Week": "$4",
+      "30 Days": "$7",
+      "Lifetime (No Patch)": "$12",
+      "Source Code": "$15"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Perplexity AI Cookie Checker",
+    "description": "Validate Perplexity AI cookies and account details.",
+    "long_description": "😲 Optimized for Perplexity.ai accounts.\n🤖 Automatically detects plan type, region, and status.\n🌍 Fast and user-friendly interface.",
+    "requirements": "✅ No specific requirements.",
+    "image": "assets/checkers-pic/perplexityai.jpg",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/perplexityai1.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "2025-04-25",
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-01",
+    "tags": ["perplexity"],
+    "keywords": [
+      "perplexity ai login checker",
+      "perplexity cookies status",
+      "check perplexity session",
+      "perplexity ai tool",
+      "ai plan validation"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Week": "$4",
+      "30 Days": "$7",
+      "Lifetime (No Patch)": "$12",
+      "Source Code": "$15"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Eneba Cookie Checker",
+    "description": "Validate Eneba cookies and retrieve account balances.",
+    "long_description": "💰 Display account balances and loyalty points.\n🎯 Ideal for log sorting and account management.\n✅ Provides real-time results without proxies.",
+    "requirements": "✅ No specific requirements.",
+    "image": "assets/checkers-pic/eneba.png",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/eneba1.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "2025-04-25",
+    "release_date": "2025-03-25",
+    "update_date": "2025-04-01",
+    "tags": ["eneba"],
+    "keywords": [
+      "eneba balance check",
+      "eneba account checker",
+      "loyalty point validator",
+      "eneba cookie status"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Week": "$4",
+      "30 Days": "$10",
+      "Lifetime (No Patch)": "$13",
+      "Lifetime (Inc Patch)": "$15",
+      "Source Code": "$20"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Claude Ai Cookie Checker",
+    "description": "Ai like chatgpt but more effective for coding and programming.",
+    "long_description": "🤖 Validate Claude AI cookies and retrieve account details.\n🔍 Detects free or premium.\n🌍 Fast and user-friendly interface.",
+    "requirements": "✅ No specific requirements.",
+    "image": "assets/checkers-pic/claudeai.png",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/claudeai1.png",
+      "assets/checkers-pic/checking/claudeai2.png",
+      "assets/checkers-pic/checking/claudeai3.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": null,
+    "release_date": "2025-05-05",
+    "update_date": "2025-05-05",
+    "tags": ["claude", "ai", "chatbot"],
+    "keywords": [
+      "claude ai login checker",
+      "validate claude cookies",
+      "check claude session",
+      "claude ai tool",
+      "ai plan validation",
+      "chatgpt",
+      "ai"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Week": "$4",
+      "30 Days": "$7",
+      "Lifetime (No Patch)": "$12",
+      "Source Code": "$15"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Peacock TV Cookie Checker",
+    "description": "Validate Peacock TV cookies and retrieve plan details.",
+    "long_description": "📺 Check Peacock TV cookies for plan and payment details.\n💳 Capture subscription and payment information.\n🌍 Fast and works without proxies.\n✅ Ideal for account management.",
+    "requirements": "✅ Must be a US citizen or use a VPN to validate cookies.",
+    "image": "assets/checkers-pic/peacocktv.jpg",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/peacock1.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": null,
+    "release_date": "2025-04-23",
+    "update_date": "2025-04-23",
+    "tags": ["peacock tv"],
+    "keywords": [
+      "peacock tv cookie checker",
+      "validate peacock cookies"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Week": "$4",
+      "30 Days": "$8",
+      "Lifetime (No Patch)": "$13",
+      "Source Code": "$15"
+    }
+  },
+  {
+    "type": "Checker",
+    "name": "Nord Cookie Checker",
+    "description": "Validate NordVPN cookies and capture account details.",
+    "long_description": "🔒 Check NordVPN cookies to retrieve account details, including payment information and services.\n💻 Use valid cookies to log in via browser and app (for PC users).",
+    "requirements": "✅ No specific requirements, but finding cookies can be challenging. Ensure good logs.",
+    "image": "assets/checkers-pic/nordvpn.png",
+    "video": "",
+    "images": [
+      "assets/checkers-pic/checking/nordvpn1.png"
+    ],
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "2025-04-25",
+    "release_date": "2025-04-20",
+    "update_date": "2025-04-20",
+    "tags": ["nordvpn", "vpn"],
+    "keywords": [
+      "nordvpn cookie checker",
+      "check nordvpn cookies",
+      "nordvpn account status",
+      "slot capture nordvpn",
+      "nordvpn cookies tool"
+    ],
+    "contact": "telegram",
+    "stock": "unlimited",
+    "pricing": {
+      "1 Day": "$1",
+      "1 Week": "$4",
+      "30 Days": "$8",
+      "Lifetime (Inc Patch)": "$10",
+      "Source Code": "$12"
+    } 
+  } 
+]

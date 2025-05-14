@@ -1,0 +1,97 @@
+/* ========================= */
+/*      ABOUT SECTION        */
+/* ========================= */
+
+/* Default (desktop) styles */
+.about-box {
+    max-width: 850px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    background: #fff;
+    border-left: 5px solid var(--color-primary);
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.85;
+    color: #333;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .about-box h2 {
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+    color: var(--color-primary);
+  }
+  
+  .about-box p {
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-box ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Dark mode override */
+  body.dark .about-box {
+    background: #1f1f1f;
+    color: #ccc; 
+    /* For better contrast, keep text color lighter in dark mode */
+  }
+  
+  /* 
+     Optionally, if you want the background & text to transition 
+     smoothly when switching themes, ensure body or html has:
+     transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+  */
+  
+  /* ========================= */
+  /*       MEDIA QUERIES       */
+  /* ========================= */
+  
+  /* Tablet (max-width: 768px) */
+  @media (max-width: 768px) {
+    .about-box {
+      margin: 2rem auto;
+      padding: 1.5rem;
+      font-size: 1rem;
+    }
+  
+    .about-box h2 {
+      font-size: 1.4rem;
+      margin-top: 2rem;
+    }
+  }
+  
+  /* Mobile (max-width: 480px) */
+  @media (max-width: 480px) {
+    .about-box {
+      margin: 1.5rem auto;
+      padding: 1rem;
+      font-size: 0.95rem;
+    }
+  
+    .about-box h2 {
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+    }
+  }
+  
+  /* ========================= */
+  /*  LOGO & FLIP-CARD FIXES   */
+  /* ========================= */
+  
+  /* If you need the .logo img to scale to its container: */
+  .logo img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain; /* maintains aspect ratio */
+  }
+  
+  /* If you’re using any flip-card logic: */
+  .flip-card-inner.flipped {
+    transform: rotateY(180deg);
+  }
+  

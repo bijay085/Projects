@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Discord Nitro (Full)",
+    "type": "Others",
+    "description": "Unlock the full Discord Nitro experience with Boost — available as trial or full versions.",
+    "long_description": "Enjoy the complete features of Discord Nitro with Boost. Choose between a trial or full-length subscription. Fast delivery and easy setup guaranteed.",
+    "image": "assets/others/discordnitrofull.jpg",
+    "requirements": "1. Your Discord account must be at least 1 month old.\n2. If selecting a trial, you must not have used Discord Nitro before and must have a working payment method.",
+    "images": [],
+    "video": "",
+    "tags": ["discord", "nitro", "boost", "subscription", "premium"],
+    "release_date": "2025-03-25",
+    "update_date": "2025-04-01",
+    "pricing": {
+      "1 Month (Full)": "$8",
+      "3 Months (Trial)": "$3",
+      "3 Months (Full)": "$24",
+      "1 Year (Full)": "$75"
+    },
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "",
+    "contact": "telegram",
+    "keywords": ["discord", "nitro", "boost", "trial", "subscription", "premium", "full version"]
+  },
+  {
+    "name": "Discord Nitro (Basic)",
+    "type": "Others",
+    "description": "Get the full version of Discord Nitro at an affordable price for eligible accounts.",
+    "long_description": "If your Discord account has never used Nitro, you can get the full version at the lowest rate. Ideal for first-time Nitro users.",
+    "image": "assets/others/discordnitrobasic.png",
+    "requirements": "1. Your Discord account must be at least 1 month old.\n2. You must not have previously activated Discord Nitro.",
+    "images": [],
+    "video": "",
+    "tags": ["discord", "nitro", "basic", "full", "subscription"],
+    "release_date": "2025-03-25",
+    "update_date": "2025-04-01",
+    "pricing": {
+      "1 Month (Full)": "$2.75",
+      "1 Year (Full)": "$24"
+    },
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "",
+    "contact": "telegram",
+    "keywords": ["discord", "nitro", "basic", "full version", "subscription", "first time"]
+  },
+  {
+    "name": "Surfshark VPN",
+    "type": "Others",
+    "description": "Secure your online activity with Surfshark VPN at an affordable price.",
+    "long_description": "Browse the web securely and privately with Surfshark VPN. Get it at a discounted rate with fast delivery and easy setup. Supports unlimited devices.",
+    "image": "assets/others/surfshark.jpg",
+    "requirements": "1.If you are buying trial only 1 time it can be activated and need card.",
+    "images": [],
+    "video": "",
+    "tags": ["discord", "nitro", "basic", "full", "subscription"],
+    "release_date": "2025-03-25",
+    "update_date": "2025-04-01",
+    "pricing": {
+      "1 Month": "$10.5",
+      "3 Months (Trail | Starter)": "$1"
+    },
+    "discount": null,
+    "offer": null,
+    "offer_expiry": "",
+    "contact": "telegram",
+    "keywords": ["discord", "nitro", "basic", "full version", "subscription", "first time"]
+  }
+]

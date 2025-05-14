@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Flame Mod Paradise (FMP) offers premium mods, automation tools, and exclusive free offers like Netflix cookies, Spotify cookies, Hotstar cookies, ChatGPT cookies, and more. Join the community of tool enthusiasts today!" />
+  <meta name="keywords" content="Flame Mod Paradise, FMP mods, premium mods, automation tools, Netflix cookies, Spotify cookies, Hotstar cookies, ChatGPT cookies, tool store, free offers, cookie checker" />
+  <meta property="og:title" content="Flame Mod Paradise - Premium Mods & Tools for Automation" />
+  <meta property="og:description" content="Flame Mod Paradise offers premium mods, custom tools, and automation scripts along with exclusive free offers like Netflix cookies, Spotify cookies, Hotstar, and ChatGPT cookies." />
+  <meta property="og:url" content="https://flamemodparadise.github.io/My-Site/" />
+  <meta property="og:image" content="assets/icons/fmp-icon.gif" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Flame Mod Paradise" />
+
+  <link rel="canonical" href="https://flamemodparadise.github.io/My-Site/" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="assets/icons/icon-192.png" sizes="192x192" />
+  <link rel="icon" href="assets/icons/icon-512.png" sizes="512x512" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+
+  <title>Flame Mod Paradise - Premium Mods, Tools, and Free Offers</title>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Flame Mod Paradise",
+    "url": "https://flamemodparadise.github.io/My-Site/",
+    "description": "Flame Mod Paradise offers premium mods, automation tools, and exclusive free offers like Netflix cookies, Spotify cookies, and more.",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://flamemodparadise.github.io/My-Site/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="scrollProgress"></div>
+  <div class="mymain" id="mymain">
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation">
+      <div class="navbar-left">
+        <a class="logo" href="index.html">
+          <img src="assets/icons/fmp-icon.gif" alt="FMP Logo" />
+        </a>
+      </div>
+      <button aria-label="Toggle menu" class="navbar-toggle" id="navbarToggle">☰</button>
+      <div class="navbar-right" id="navbarMenu">
+        <a href="index.html" class="active">Home</a>
+        <a href="pages/reviews.html">Reviews</a>
+        <a href="pages/contact.html">Contact</a>
+        <a href="pages/faq.html">FAQ</a>
+        <button id="darkToggle" title="Toggle Dark Mode">💡</button>
+      </div>
+    </nav>
+
+    <!-- Search bar -->
+    <div class="search-bar-true-right">
+      <div class="search-group" style="position: relative;">
+        <input id="searchInput" type="text" placeholder="Search..." />
+        <div id="autocompleteBox" class="autocomplete-box hidden" role="listbox"></div>
+        <select id="sortSelect">
+          <option value="name">Name A → Z</option>
+          <option value="release_date">Newest</option>
+          <option value="update_date">Updated</option>
+          <option value="discount">Top Discount</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Hero header -->
+    <header class="container">
+      <h1 class="title">🚀 Browse & Buy Custom Tools Instantly</h1>
+      <p class="notice">
+        Static site — no direct payment system. Contact me on
+        <a href="https://t.me/fmpChatBot" target="_blank">Telegram</a>
+        for access.
+      </p>
+      <div class="filter-tags" id="filters"></div>
+    </header>
+
+    <!-- Announcement Banner -->
+    <div class="banner hidden" id="announcement-banner">
+      <p>
+        🎁 Special Offer: 25% OFF on selected tools this week!
+        <a href="#">Learn more</a>
+      </p>
+      <button id="close-banner">✖</button>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+      <!-- Offers Carousel -->
+      <section id="offers-section" class="carousel-section">
+        <h2 class="section-title">🔥 Offers &amp; Discounts</h2>
+        <div id="offers-list" class="main-grid carousel"></div>
+        <!-- Removed arrow buttons -->
+      </section>
+
+      <!-- Recommended Carousel -->
+      <section id="recommended-section" class="carousel-section">
+        <h2 class="section-title">⭐ Recommended</h2>
+        <div id="recommended-list" class="main-grid carousel"></div>
+        <!-- Removed arrow buttons -->
+      </section>
+
+      <!-- Limited‑Time Carousel -->
+      <section id="limited-section" class="carousel-section">
+        <h2 class="section-title">⏰ Limited‑Time Item</h2>
+        <div id="limited-list" class="main-grid carousel"></div>
+        <!-- Removed arrow buttons -->
+      </section>
+
+      <!-- Master tool list (populated by script.js) -->
+      <section class="main-grid" id="main-tool-list"></section>
+    </main>
+
+    <!-- Install Prompt -->
+    <div class="install-box hidden" id="install-prompt">
+      <p>📲 Install Tool Store as an app?</p>
+      <button id="install-now">Install Now</button>
+      <button id="install-later">Later</button>
+    </div>
+
+    <!-- Image Modal -->
+    <div class="image-modal hidden" id="imageModal">
+      <div class="image-modal-content">
+        <button class="image-close-btn" onclick="closeImageModal()">✖</button>
+        <img id="modalImage" src="" alt="Preview" />
+      </div>
+    </div>
+
+    <!-- Requirements Popup -->
+    <div class="popup-box hidden" id="popupMessage">
+      <div class="popup-content">
+        <h3 id="popupTitle">Requirements</h3>
+        <p id="popupText"></p>
+        <button class="close-popup-btn" onclick="closePopup()">Close</button>
+      </div>
+    </div>
+
+    <!-- Scroll To Top -->
+    <button id="scrollToTopBtn" title="Go to top">
+      <img src="assets/icons/turn-up.gif" alt="Scroll to top" />
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="footer-content">
+        <!-- Contact -->
+        <div class="footer-section contact">
+          <h2>
+            <img src="assets/icons/contact.gif" alt="Contact Icon" class="footer-icon" />
+            Contact
+          </h2>
+          <p>For purchases, support, or custom orders, reach out via:</p>
+          <ul>
+            <li>
+              <a href="https://t.me/fmpChatBot" target="_blank">
+                <img src="assets/icons/footers-icons/bot.png" alt="Telegram Bot Icon" class="footer-subicon" />
+                Telegram Bot: @fmpChatBot
+              </a>
+            </li>
+            <li>
+              <a href="https://t.me/flamemodparadise" target="_blank">
+                <img src="assets/icons/footers-icons/telegram.png" alt="Personal Telegram Icon" class="footer-subicon" />
+                Personal Telegram: @flamemodparadise
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <img src="assets/icons/footers-icons/discord.png" alt="Discord Icon" class="footer-subicon" />
+                Discord: YourDiscordHandle
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Quick Links -->
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="index.html"><img src="assets/icons/footers-icons/house.png" class="footer-subicon" />Home</a></li>
+            <li><a href="pages/reviews.html"><img src="assets/icons/footers-icons/reviews.png" class="footer-subicon" />Reviews</a></li>
+            <li><a href="pages/contact.html"><img src="assets/icons/footers-icons/phone.png" class="footer-subicon" />Contact</a></li>
+            <li><a href="pages/faq.html"><img src="assets/icons/footers-icons/faq.png" class="footer-subicon" />FAQ</a></li>
+          </ul>
+        </div>
+        <!-- Resources -->
+        <div class="footer-section resources">
+          <h2>Resources</h2>
+          <ul>
+            <li><a href="resources/tos.html"><img src="assets/icons/footers-icons/terms.png" class="footer-subicon" />Terms & Conditions</a></li>
+            <li><a href="resources/privacy.html"><img src="assets/icons/footers-icons/privacy.png" class="footer-subicon" />Privacy Policy</a></li>
+            <li><a href="resources/about.html"><img src="assets/icons/footers-icons/info.png" class="footer-subicon" />About Us</a></li>
+            <li><a href="resources/sitemap.html"><img src="assets/icons/footers-icons/site.png" class="footer-subicon" />Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="footer-divider" />
+      <div class="footer-bottom">
+        <p>© 2025 Flame Mod Paradise. All rights reserved.</p>
+        <p>Use these tools responsibly. No refunds for digital items after purchase.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+  <script>
+    // Service Worker registration
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./service-worker.js")
+          .then((reg) => console.log("✅ Service Worker registered:", reg.scope))
+          .catch((err) => console.error("❌ Service Worker error:", err));
+      });
+    }
+
+    // Image modal & gallery
+    document.addEventListener("DOMContentLoaded", () => {
+      const mainImg = document.querySelector(".tool-main-img");
+      document.querySelectorAll(".tool-gallery img").forEach((img) => {
+        img.addEventListener("click", () => {
+          if (mainImg && img.src) mainImg.src = img.src;
+        });
+      });
+    });
+    function openImageModal(src) {
+      const modal = document.getElementById("imageModal"),
+            modalImg = document.getElementById("modalImage");
+      modalImg.src = src;
+      modal.classList.remove("hidden");
+    }
+    function closeImageModal() { document.getElementById("imageModal").classList.add("hidden"); }
+    function closePopup()       { document.getElementById("popupMessage").classList.add("hidden"); }
+
+    // Carousel auto‑slide + manual arrows
+    function autoSlide(id, interval = 4000) {
+      const box = document.getElementById(id);
+      if (!box) return;
+      let next = 0;
+      const step = () => {
+        const card = box.querySelector(".tool-card");
+        if (!card) return;
+        const gap = parseFloat(getComputedStyle(box).gap) || 16;
+        const w = card.offsetWidth + gap;
+        const max = box.scrollWidth - box.clientWidth;
+        next = next + w > max ? 0 : next + w;
+        box.scrollTo({ left: next, behavior: "smooth" });
+      };
+      setInterval(step, interval);
+    }
+    ["offers-list","recommended-list","limited-list"].forEach(autoSlide);
+
+    document.querySelectorAll(".arrow").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const box = document.getElementById(btn.dataset.target);
+        const dir = btn.classList.contains("right") ? 1 : -1;
+        if (box) {
+          const gap = parseFloat(getComputedStyle(box).gap) || 16;
+          const card = box.querySelector(".tool-card");
+          if (card) {
+            const delta = dir * (card.offsetWidth + gap);
+            box.scrollBy({ left: delta, behavior: "smooth" });
+          }
+        }
+      });
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <noscript>
+    <p>Enable JavaScript for better site readability.<br />Thank You.<hr /></p>
+  </noscript>
+</body>
+</html>

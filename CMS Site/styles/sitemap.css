@@ -1,0 +1,104 @@
+/* ========================= */
+/*       Sitemap Page        */
+/* ========================= */
+
+.sitemap-box {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    border-left: 5px solid var(--color-primary);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.9;
+    font-size: 1.1rem;
+    color: #333;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.sitemap-box h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+    color: var(--color-primary);
+}
+
+.sitemap-links {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sitemap-links li {
+    margin-bottom: 1rem;
+}
+
+.sitemap-links a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: color 0.2s ease;
+}
+
+.sitemap-links a:hover {
+    color: #0056b3;
+}
+
+/* ========================= */
+/*       Dark Mode           */
+/* ========================= */
+body.dark .sitemap-box {
+    background: #1f1f1f;
+    color: #ccc;
+}
+
+body.dark .sitemap-box h2 {
+    color: #66cfff;
+}
+
+body.dark .sitemap-links a {
+    color: #66cfff;
+}
+
+body.dark .sitemap-links a:hover {
+    color: #4abaff;
+}
+
+/* ========================= */
+/*       Responsive          */
+/* ========================= */
+@media (max-width: 768px) {
+    .sitemap-box {
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+    .sitemap-box h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sitemap-box {
+        padding: 1.2rem;
+        font-size: 0.95rem;
+    }
+    .sitemap-box h2 {
+        font-size: 1.3rem;
+    }
+}
+
+/* ========================= */
+/*   Utility Overrides       */
+/* ========================= */
+.logo img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain;
+}
+
+.flip-card-inner.flipped {
+    transform: rotateY(180deg);
+}

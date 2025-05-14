@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Netflix Methods",
+    "type": "Method",
+    "description": "Learn Netflix access techniques like EM, C2P, and privatization.",
+    "long_description": "🛠️ Netflix Methods:\n- Netflix C2P: Change the owner's email to your own.\n- Netflix EM: Receive an invite without accessing the owner's email.\n- Manual Privatize: Transform public Netflix cookies into private ones.",
+    "tags": ["netflix", "Method", "c2p", "em", "private"],
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-01",
+    "price": "- Netflix C2P: $3\n- Netflix EM: $1\n- Manual Privatize: $1.5\n",
+    "contact": "telegram",
+    "stock": "Always",
+    "keywords": ["netflix", "Method", "c2p", "em", "privatize", "netflix method", "netflix c2p", "methods"],
+    "image": "assets/methods-pic/netflix.png",
+    "requirements": "✅ Basic familiarity with Netflix cookies.\n✅ For C2P you must have third party cookies, on cc based you can perform but hard same way as tp."
+  },
+  {
+    "name": "GPT Invite Trick",
+    "type": "Method",
+    "description": "Gain GPT+ access through invite-based methods.",
+    "long_description": "🧠 GPT Invite Trick:\n- Receive an invite directly to your email.\n- Works on a luck-based system.\n- Fully automated delivery.\n- Similar to Netflix lifetime methods.",
+    "tags": ["Chatgpt", "Method", "invite"],
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-01",
+    "price": "Per Invite: $2\n",
+    "contact": "telegram",
+    "stock": "Always",
+    "keywords": ["gpt", "chatgpt", "invite", "trick"],
+    "image": "assets/methods-pic/chatgpt.png",
+    "requirements": "✅ Maybe lifetime or shortime (luck based).\n✅ You will need a team based plan cookie/account."
+  },
+  {
+    "name": "Spotify Methods",
+    "type": "Method",
+    "description": "Master Spotify invitation and account conversion techniques.",
+    "long_description": "🎵 Spotify Methods:\n- Mail Invite: Receive a Spotify invite in your email.\n- C2P: Convert the account from the owner's email to your own.",
+    "tags": ["spotify", "Method", "invite", "c2p"],
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-01",
+    "price": "- Invite: $1,\n- C2P: $2\n",
+    "contact": "telegram",
+    "stock": "Always",
+    "keywords": ["spotify", "invite", "trick", "c2p", "spotify c2p"],
+    "image": "assets/methods-pic/spotify.png",
+    "requirements": "✅ Need spotify cookie according to plan needed, for c2p any and for invite family/duo owner based.\n✅ In invite, prefer new or never invite account."
+  },
+  {
+    "name": "Hotstar Method",
+    "type": "Method",
+    "description": "Convert Hotstar accounts to your own using simple techniques.",
+    "long_description": "📺 Hotstar Method:\n- C2P: Change the account from the owner’s email to your mobile number.",
+    "tags": ["hotstar", "Method", "c2p"],
+    "release_date": "2025-03-19",
+    "update_date": "2025-04-01",
+    "price": "C2P: $2\n",
+    "contact": "telegram",
+    "stock": "Always",
+    "keywords": ["hotstar", "Method", "trick", "c2p", "hoststar c2p"],
+    "image": "assets/methods-pic/hotstar.png",
+    "requirements": "✅ Need indian number 100%.\n✅ Must be in indian or vpn of india."
+  }
+]

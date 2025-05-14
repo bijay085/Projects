@@ -1,0 +1,295 @@
+/* ========================= */
+/*       Reviews Page        */
+/* ========================= */
+
+/* HERO HEADER */
+.reviews-hero {
+  position: relative;
+  background: url('../assets/reviews-hero.jpg') center/cover no-repeat;
+  height: 300px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.reviews-hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 1rem;
+  animation: fadeInUp 0.8s ease-out;
+}
+.hero-content h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+.hero-content p {
+  font-size: 1.1rem;
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ========================= */
+/*   CATEGORY OVERVIEW GRID  */
+/* ========================= */
+#categoryOverview {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 2rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.category-card {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.category-card h3 {
+  margin-top: 0.75rem;
+  font-size: 1.1rem;
+  color: #0288d1;
+  text-align: center;
+}
+
+/* STACKED 3-PHOTO COLLAGE */
+.stacked-collage {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+.stacked-collage img {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.stacked-1 {
+  top: 0; left: 30px; z-index: 3;
+}
+.stacked-2 {
+  top: 30px; left: 10px; z-index: 2;
+  transform: rotate(-5deg);
+}
+.stacked-3 {
+  top: 60px; left: 35px; z-index: 1;
+  transform: rotate(5deg);
+}
+.stacked-collage img:hover {
+  transform: scale(1.07);
+}
+
+/* ========================= */
+/*      DETAIL VIEW          */
+/* ========================= */
+#categoryDetail.hidden {
+  display: none;
+}
+#categoryDetail {
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.back-btn {
+  background: #0288d1;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+#detailTitle {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #0288d1;
+  margin-bottom: 1rem;
+}
+.detail-photos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+.detail-photos-grid img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+}
+.detail-photos-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* ========================= */
+/*     IMAGE MODAL (Popup)   */
+/* ========================= */
+.image-modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.image-modal .image-modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.image-modal .close-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.8rem;
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #333;
+}
+.image-modal .image-modal-content img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+.image-modal .image-modal-content img:hover {
+  transform: scale(1.05);
+}
+
+/* ========================= */
+/*      DARK MODE            */
+/* ========================= */
+body.dark .category-card h3 {
+  color: #66cfff;
+}
+body.dark .stacked-collage img {
+  border: 2px solid #333;
+}
+body.dark #categoryDetail {
+  color: #ccc;
+}
+body.dark #detailTitle {
+  color: #66cfff;
+}
+body.dark .detail-photos-grid img {
+  box-shadow: none;
+}
+body.dark .back-btn {
+  background: #66cfff;
+  color: #000;
+}
+body.dark .image-modal .image-modal-content {
+  background: #2d2d2d;
+  color: #cccccc;
+}
+body.dark .image-modal .close-btn {
+  color: #aaa;
+}
+
+/* ========================= */
+/*      RESPONSIVE STYLES    */
+/* ========================= */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  #categoryOverview {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+  .stacked-collage {
+    width: 130px;
+    height: 130px;
+  }
+  .stacked-collage img {
+    width: 80px;
+    height: 80px;
+  }
+  .detail-photos-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+  }
+  .detail-photos-grid img {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.7rem;
+  }
+  #categoryOverview {
+    grid-template-columns: 1fr;
+  }
+  .stacked-collage {
+    width: 120px;
+    height: 120px;
+  }
+  .stacked-collage img {
+    width: 70px;
+    height: 70px;
+  }
+  #detailTitle {
+    font-size: 1.4rem;
+  }
+  .detail-photos-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+  .detail-photos-grid img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* Optional: Smooth transitions for body colors on theme switch */
+body {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Force the logo to fill container properly */
+.logo img {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: contain;
+}
+
+/* If you also use flip-card logic in the same project: */
+.flip-card-inner.flipped {
+  transform: rotateY(180deg);
+}
